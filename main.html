@@ -18,66 +18,50 @@
             SERVICES
         </button>
         <span class="separator">/</span>
-        <button class="tab cart-tab" data-tab-id="cart">
+        <button class="tab cart-tab"
+        data-tab-id="cart"
+        data-goods-count="0">
             CART
         </button>
 
     </div>
 
-    <div class="product-items">
-
-        <div class="product-item">
-            <img src="./images/goods/coworkers.jpg" alt="coworker">
-            <div class="product-list">
-                <h3>Coworkers</h3>
-                <p class="price">From 100$</p>
-                <button class="button">Add to cart</button>
-            </div>
-        </div>
-
-        <div class="product-item">
-            <img src="./images/goods/analytics.jpg" alt="analytic">
-            <div class="product-list">
-                <h3>Analytics</h3>
-                <p class="price">From 200$</p>
-                <button class="button">Add to cart</button>
-            </div>
-        </div>
-
-        <div class="product-item">
-            <img src="./images/goods/rent-place.jpg" alt="rent">
-            <div class="product-list">
-                <h3>Rent office</h3>
-                <p class="price">From 500$</p>
-                <button class="button">Add to cart</button>
-            </div>
-        </div>
-
-    </div>
-
-
-    <div class="cart-items">
-
-        <div class="cart-item">
-            <div class="cart-item-title">Coworkers</div>
-            <div class="cart-imet-count">3 pcs</div>
-            <div class="cart-item-price">100$</div>
-        </div>
-
-        <div class="cart-item">
-            <div class="cart-item-title">Analytics</div>
-            <div class="cart-imet-count">1 pcs</div>
-            <div class="cart-item-price">200$</div>
-        </div>
-        
-        <div class="cart-item">
-            <div class="cart-item-title">Rent office</div>
-            <div class="cart-imet-count">6 pcs</div>
-            <div class="cart-item-price">500$</div>
-        </div>
-
-    </div>
-
+    <script src="goods.js" defer></script>
     <script src="index.js" defer></script>
+    
 </body>
 </html>
+
+
+<!-- // return `
+    //     <div class="product-items" data-active-tab-content="true">
+
+    //         <div class="product-item">
+    //             <img src="./images/goods/coworkers.jpg" alt="coworker">
+    //             <div class="product-list">
+    //                 <h3>Coworkers</h3>
+    //                 <p class="price">From 100$</p>
+    //                 <button data-add-in-cart="true" class="button">Add to cart</button>
+    //             </div>
+    //         </div>
+
+    //         <div class="product-item">
+    //             <img src="./images/goods/analytics.jpg" alt="analytic">
+    //             <div class="product-list">
+    //                 <h3>Analytics</h3>
+    //                 <p class="price">From 200$</p>
+    //                 <button data-add-in-cart="true" class="button">Add to cart</button>
+    //             </div>
+    //         </div>
+
+    //         <div class="product-item">
+    //             <img src="./images/goods/rent-place.jpg" alt="rent">
+    //             <div class="product-list">
+    //                 <h3>Rent office</h3>
+    //                 <p class="price">From 500$</p>
+    //                 <button data-add-in-cart="true" class="button">Add to cart</button>
+    //             </div>
+    //         </div>
+
+    //     </div>
+    // `; -->

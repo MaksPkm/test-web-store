@@ -13,7 +13,6 @@ body {
 .tabs {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     margin-bottom: 10px;
 }
 
@@ -40,7 +39,7 @@ body {
 }
 
 .cart-tab::after {
-    content: '5';
+    content: attr(data-goods-count);
     display: flex;
     justify-content: center;
 	align-items: center;
@@ -128,9 +127,19 @@ body {
 
 .cart-item {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 }
 
 .cart-item-price {
 	font-weight: bold;
+}
+
+.cart-item-delete {
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30px;
+    padding-bottom: 4px;
 }
